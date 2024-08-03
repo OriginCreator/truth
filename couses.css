@@ -1,0 +1,25 @@
+html{
+    font-size: 100%;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-wrap: normal;
+    overflow: scroll;
+    color: white;
+}
+.coooor{
+    color: white;
+    position: relative;
+    display:grid;
+    grid-template-rows: 1fr 7fr;
+    padding: 10px;
+    padding-top: 20px;
+
+}
+.courses .card{
+    background: linear-gradient(to right,gray,transparent);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px black;
+}
